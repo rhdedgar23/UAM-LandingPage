@@ -8,13 +8,27 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   line-height: 1.3;
-  background-color: aquamarine;
+  overflow-x: hidden;
+  background-color: #e8e8df;
+  background-image: url(/images/fondo_top.png);
+  background-repeat: repeat-x;
 }
 
-main {
-  background-color: aquamarine;
+main, .grid-Parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+header, .encabezado {
+  height: 100px;
+  width: 980px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: #c6dad8;
 }/*# sourceMappingURL=style.css.map */
