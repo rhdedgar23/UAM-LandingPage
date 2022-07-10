@@ -24,7 +24,7 @@ main, .grid-Parent{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     //grid-template-rows: repeat(7, 1fr);
-    max-width: 70vw;//80% of viewport width
+    max-width: 980px;
     margin: 0 auto;
 }
 

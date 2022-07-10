@@ -21,14 +21,48 @@ body {
 main, .grid-Parent {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  max-width: 70vw;
+  max-width: 980px;
   margin: 0 auto;
 }
 
 header, .encabezado {
+  position: relative;
   height: 100px;
-  width: 980px;
   grid-column-start: 1;
   grid-column-end: 5;
   background-color: #c6dad8;
+}
+header .img__UAM-Logo, .encabezado .img__UAM-Logo {
+  display: block;
+  margin: 10px auto 0px;
+}
+header button, header #botonCalendarioEscolar, .encabezado button, .encabezado #botonCalendarioEscolar {
+  font-size: 0.65rem;
+  position: absolute;
+  right: 400px;
+  bottom: 10px;
+  background-color: #20ACB8;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+header button:hover, header #botonCalendarioEscolar:hover, .encabezado button:hover, .encabezado #botonCalendarioEscolar:hover {
+  background-color: #fff;
+  color: #808080;
+}
+header .img__Idiomas-Logo, .encabezado .img__Idiomas-Logo {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+}
+
+.navlinks {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 50px;
+  background-color: #000;
 }/*# sourceMappingURL=style.css.map */
