@@ -60,9 +60,51 @@ header .img__Idiomas-Logo, .encabezado .img__Idiomas-Logo {
 }
 
 .navlinks {
-  position: relative;
   grid-column-start: 1;
   grid-column-end: 5;
+}
+.navlinks .links1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #404040;
   height: 50px;
-  background-color: #000;
+}
+.navlinks .links1 a {
+  position: relative;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  height: 50px;
+  text-decoration: none;
+  padding-top: 12px;
+}
+.navlinks .links1 a:nth-child(-n+2) {
+  word-wrap: break-word;
+  text-align: center;
+}
+.navlinks .links1 a:first-child {
+  width: 74px;
+  margin-left: 40px;
+}
+.navlinks .links1 a:nth-child(2) {
+  width: 95px;
+}
+.navlinks .links1 a:last-child {
+  margin-right: 40px;
+}
+.navlinks .links1 a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 7px;
+  left: 0;
+  right: 0;
+  top: 0px;
+  background-color: #20ACB8;
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+.navlinks .links1 a:hover::before {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

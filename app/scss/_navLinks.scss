@@ -1,8 +1,68 @@
 
 .navlinks{
-    position: relative;
     grid-column-start: 1;
     grid-column-end: 5;
-    height: 50px;
-    background-color: #000;    
+    
+    
+    
+    .links1{
+        display: flex;
+        justify-content: space-between;//horizontal aligment
+        align-items: center;//vertical aligment
+        background-color: #404040;
+        height: 50px;
+
+        a{
+            position: relative;
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            height: 50px;
+            //width: 100px;
+            text-decoration: none;
+            //margin-right: 12px;
+            padding-top: 12px;
+            
+            &:nth-child(-n + 2){//selects only first two children
+                //width: 100px;
+                word-wrap: break-word;
+                text-align: center;
+            }
+
+            &:first-child{
+                width: 74px;
+                margin-left: 40px;
+            }
+
+            &:nth-child(2){
+                width: 95px;
+            }
+
+            &:last-child{
+                margin-right: 40px;
+            }
+
+            &::before{
+                content: "";
+                display: block;
+                position: absolute;
+                height: 7px;
+                left: 0;
+                right: 0;
+                top: 0px;
+                background-color: #20ACB8;
+                opacity: 0;
+                transition: opacity 100ms ease-in-out;
+            }
+
+            &:hover{
+                &::before{
+                    opacity: 1;
+                }
+            }
+            
+        }
+    }
+
+    
 }
