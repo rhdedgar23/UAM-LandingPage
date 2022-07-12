@@ -59,18 +59,18 @@ header .img__Idiomas-Logo, .encabezado .img__Idiomas-Logo {
   bottom: 10px;
 }
 
-.navlinks {
+nav, .navlinks {
   grid-column-start: 1;
   grid-column-end: 5;
 }
-.navlinks .links1 {
+nav .links1, .navlinks .links1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #404040;
   height: 50px;
 }
-.navlinks .links1 a {
+nav .links1 a, .navlinks .links1 a {
   position: relative;
   color: #fff;
   font-size: 0.75rem;
@@ -79,21 +79,21 @@ header .img__Idiomas-Logo, .encabezado .img__Idiomas-Logo {
   text-decoration: none;
   padding-top: 12px;
 }
-.navlinks .links1 a:nth-child(-n+2) {
+nav .links1 a:nth-child(-n+2), .navlinks .links1 a:nth-child(-n+2) {
   word-wrap: break-word;
   text-align: center;
 }
-.navlinks .links1 a:first-child {
+nav .links1 a:first-child, .navlinks .links1 a:first-child {
   width: 74px;
   margin-left: 40px;
 }
-.navlinks .links1 a:nth-child(2) {
+nav .links1 a:nth-child(2), .navlinks .links1 a:nth-child(2) {
   width: 95px;
 }
-.navlinks .links1 a:last-child {
+nav .links1 a:last-child, .navlinks .links1 a:last-child {
   margin-right: 40px;
 }
-.navlinks .links1 a::before {
+nav .links1 a::before, .navlinks .links1 a::before {
   content: "";
   display: block;
   position: absolute;
@@ -105,6 +105,64 @@ header .img__Idiomas-Logo, .encabezado .img__Idiomas-Logo {
   opacity: 0;
   transition: opacity 100ms ease-in-out;
 }
-.navlinks .links1 a:hover::before {
+nav .links1 a:hover::before, .navlinks .links1 a:hover::before {
+  opacity: 1;
+}
+nav .roulette, .navlinks .roulette {
+  height: 410px;
+  background-color: #fff;
+}
+nav .links2, .navlinks .links2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #404040;
+  height: 50px;
+}
+nav .links2 a, .navlinks .links2 a {
+  position: relative;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  height: 50px;
+  text-decoration: none;
+  padding-top: 12px;
+}
+nav .links2 a:nth-child(n+4), .navlinks .links2 a:nth-child(n+4) {
+  word-wrap: break-word;
+  text-align: center;
+}
+nav .links2 a:first-child, .navlinks .links2 a:first-child {
+  margin-left: 40px;
+}
+nav .links2 a:last-child, .navlinks .links2 a:last-child {
+  margin-right: 40px;
+  width: 53px;
+}
+nav .links2 a:nth-child(4), .navlinks .links2 a:nth-child(4) {
+  width: 90px;
+}
+nav .links2 a:nth-child(5), .navlinks .links2 a:nth-child(5) {
+  width: 74px;
+}
+nav .links2 a:nth-child(6), .navlinks .links2 a:nth-child(6) {
+  width: 94px;
+}
+nav .links2 a:nth-child(8), .navlinks .links2 a:nth-child(8) {
+  width: 90px;
+}
+nav .links2 a::before, .navlinks .links2 a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 7px;
+  left: 0;
+  right: 0;
+  top: 0px;
+  background-color: #20ACB8;
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */
