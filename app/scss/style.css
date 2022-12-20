@@ -23,7 +23,6 @@ main, .grid-Parent {
   grid-template-columns: repeat(4, 1fr);
   max-width: 980px;
   margin: 0 auto;
-  margin-left: 144px;
 }
 
 header, .encabezado {
