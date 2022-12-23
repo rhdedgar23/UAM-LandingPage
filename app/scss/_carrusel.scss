@@ -1,0 +1,18 @@
+
+.carrusel-e-imagenes{
+    position: relative;
+    height: 410px;
+    //width: 980px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    .carrusel{
+
+        .slide{
+            display: none;
+        }
+    }
+    
+
+
+}

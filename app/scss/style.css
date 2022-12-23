@@ -113,10 +113,6 @@ nav .links1 a::before, .navlinks .links1 a::before {
 nav .links1 a:hover::before, .navlinks .links1 a:hover::before {
   opacity: 1;
 }
-nav .roulette, .navlinks .roulette {
-  height: 410px;
-  background-color: #fff;
-}
 nav .links2, .navlinks .links2 {
   display: flex;
   justify-content: space-between;
