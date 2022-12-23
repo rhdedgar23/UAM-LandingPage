@@ -67,12 +67,12 @@ header .img__Unidades-Cubos, .encabezado .img__Unidades-Cubos {
 nav, .navlinks {
   grid-column-start: 1;
   grid-column-end: 5;
+  background-color: #404040;
 }
 nav .links1, .navlinks .links1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #404040;
   height: 50px;
 }
 nav .links1 a, .navlinks .links1 a {
@@ -113,11 +113,38 @@ nav .links1 a::before, .navlinks .links1 a::before {
 nav .links1 a:hover::before, .navlinks .links1 a:hover::before {
   opacity: 1;
 }
+nav .carrusel-e-imagenes, .navlinks .carrusel-e-imagenes {
+  position: relative;
+  height: 410px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: #fff;
+}
+nav .carrusel-e-imagenes .carrusel, .navlinks .carrusel-e-imagenes .carrusel {
+  width: 670px;
+  height: 360px;
+}
+nav .carrusel-e-imagenes .carrusel .slide-number, .navlinks .carrusel-e-imagenes .carrusel .slide-number {
+  position: absolute;
+  z-index: 2;
+}
+nav .carrusel-e-imagenes .carrusel img, .navlinks .carrusel-e-imagenes .carrusel img {
+  position: absolute;
+  z-index: 0;
+}
+nav .carrusel-e-imagenes .carrusel .carrusel-output, .navlinks .carrusel-e-imagenes .carrusel .carrusel-output {
+  position: absolute;
+  z-index: 1;
+  background-color: #404040;
+  height: 60px;
+  width: inherit;
+  text-align: left;
+  top: 300px;
+}
 nav .links2, .navlinks .links2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #404040;
   height: 50px;
 }
 nav .links2 a, .navlinks .links2 a {

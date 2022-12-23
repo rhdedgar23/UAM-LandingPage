@@ -2,12 +2,13 @@
 nav, .navlinks{
     grid-column-start: 1;
     grid-column-end: 5;
+    background-color: #404040;
+
     
     .links1{
         display: flex;
         justify-content: space-between;//horizontal aligment
         align-items: center;//vertical aligment
-        background-color: #404040;
         height: 50px;
 
         a{
@@ -62,13 +63,49 @@ nav, .navlinks{
         }
     }
 
-
+    .carrusel-e-imagenes{
+        position: relative;
+        height: 410px;
+        //width: 980px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background-color: #fff;
     
+        .carrusel{
+
+            width: 670px;
+            height: 360px;
+
+            .slide-number{
+                position: absolute;
+                z-index: 2;
+            }
+
+            img{
+                position: absolute;
+                z-index: 0;
+                //display:none;
+            }
+
+            .carrusel-output{
+                position: absolute;
+                z-index: 1;
+                background-color: #404040;
+                height: 60px;
+                width: inherit;
+                text-align: left;
+                top: 300px;
+                
+                }
+        }
+
+        
+    }
+
     .links2{
         display: flex;
         justify-content: space-between;//horizontal aligment
         align-items: center;//vertical aligment
-        background-color: #404040;
         height: 50px;
 
         a{
