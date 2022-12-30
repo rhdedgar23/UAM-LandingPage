@@ -119,16 +119,32 @@ nav .carrusel-e-imagenes, .navlinks .carrusel-e-imagenes {
   grid-column-start: 1;
   grid-column-end: 5;
   background-color: #fff;
+  font-size: 70%;
 }
 nav .carrusel-e-imagenes .carrusel, .navlinks .carrusel-e-imagenes .carrusel {
+  position: absolute;
   width: 670px;
   height: 360px;
+  left: 35px;
+  top: 20px;
+  box-sizing: content-box;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #404040;
 }
 nav .carrusel-e-imagenes .carrusel .slide-number, .navlinks .carrusel-e-imagenes .carrusel .slide-number {
   position: absolute;
   z-index: 2;
+  top: 6px;
 }
-nav .carrusel-e-imagenes .carrusel img, .navlinks .carrusel-e-imagenes .carrusel img {
+nav .carrusel-e-imagenes .carrusel .slide-number a, .navlinks .carrusel-e-imagenes .carrusel .slide-number a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #404040;
+  background-color: rgba(64, 64, 64, 0.7);
+  padding: 4px;
+}
+nav .carrusel-e-imagenes .carrusel img, nav .carrusel-e-imagenes .carrusel .slides, .navlinks .carrusel-e-imagenes .carrusel img, .navlinks .carrusel-e-imagenes .carrusel .slides {
   position: absolute;
   z-index: 0;
 }

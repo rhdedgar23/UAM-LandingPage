@@ -70,18 +70,37 @@ nav, .navlinks{
         grid-column-start: 1;
         grid-column-end: 5;
         background-color: #fff;
+        font-size: 70%;
     
         .carrusel{
-
+            position: absolute;
             width: 670px;
             height: 360px;
+            left: 35px;
+            top: 20px;
+            box-sizing: content-box;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #404040;
+            
 
             .slide-number{
                 position: absolute;
                 z-index: 2;
+                //overflow: hidden;
+                top: 6px;
+
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    background-color: #404040;
+                    background-color: rgba(64, 64, 64, 0.70);
+                    padding: 4px;
+                    
+                }
             }
 
-            img{
+            img, .slides{
                 position: absolute;
                 z-index: 0;
                 //display:none;
@@ -99,7 +118,9 @@ nav, .navlinks{
                 }
         }
 
-        
+        .imagenes-aside{
+
+        }
     }
 
     .links2{
