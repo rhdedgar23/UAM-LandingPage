@@ -63,7 +63,7 @@ nav, .navlinks{
         }
     }
 
-    .carrusel-e-imagenes{
+    .carrusel-banner{
         position: relative;
         height: 410px;
         //width: 980px;
@@ -96,7 +96,6 @@ nav, .navlinks{
                     background-color: #404040;
                     background-color: rgba(64, 64, 64, 0.70);
                     padding: 4px;
-                    
                 }
             }
 
@@ -118,8 +117,16 @@ nav, .navlinks{
                 }
         }
 
-        .imagenes-aside{
-
+        .banner{
+            position: absolute;
+            //width: 670px;
+            height: 360px;
+            left: 720px;
+            top: 20px;
+            box-sizing: content-box;
+            //border-width: 2px;
+            //border-style: solid;
+            //border-color: #404040;
         }
     }
 

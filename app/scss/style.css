@@ -113,7 +113,7 @@ nav .links1 a::before, .navlinks .links1 a::before {
 nav .links1 a:hover::before, .navlinks .links1 a:hover::before {
   opacity: 1;
 }
-nav .carrusel-e-imagenes, .navlinks .carrusel-e-imagenes {
+nav .carrusel-banner, .navlinks .carrusel-banner {
   position: relative;
   height: 410px;
   grid-column-start: 1;
@@ -121,7 +121,7 @@ nav .carrusel-e-imagenes, .navlinks .carrusel-e-imagenes {
   background-color: #fff;
   font-size: 70%;
 }
-nav .carrusel-e-imagenes .carrusel, .navlinks .carrusel-e-imagenes .carrusel {
+nav .carrusel-banner .carrusel, .navlinks .carrusel-banner .carrusel {
   position: absolute;
   width: 670px;
   height: 360px;
@@ -132,23 +132,23 @@ nav .carrusel-e-imagenes .carrusel, .navlinks .carrusel-e-imagenes .carrusel {
   border-style: solid;
   border-color: #404040;
 }
-nav .carrusel-e-imagenes .carrusel .slide-number, .navlinks .carrusel-e-imagenes .carrusel .slide-number {
+nav .carrusel-banner .carrusel .slide-number, .navlinks .carrusel-banner .carrusel .slide-number {
   position: absolute;
   z-index: 2;
   top: 6px;
 }
-nav .carrusel-e-imagenes .carrusel .slide-number a, .navlinks .carrusel-e-imagenes .carrusel .slide-number a {
+nav .carrusel-banner .carrusel .slide-number a, .navlinks .carrusel-banner .carrusel .slide-number a {
   color: #fff;
   text-decoration: none;
   background-color: #404040;
   background-color: rgba(64, 64, 64, 0.7);
   padding: 4px;
 }
-nav .carrusel-e-imagenes .carrusel img, nav .carrusel-e-imagenes .carrusel .slides, .navlinks .carrusel-e-imagenes .carrusel img, .navlinks .carrusel-e-imagenes .carrusel .slides {
+nav .carrusel-banner .carrusel img, nav .carrusel-banner .carrusel .slides, .navlinks .carrusel-banner .carrusel img, .navlinks .carrusel-banner .carrusel .slides {
   position: absolute;
   z-index: 0;
 }
-nav .carrusel-e-imagenes .carrusel .carrusel-output, .navlinks .carrusel-e-imagenes .carrusel .carrusel-output {
+nav .carrusel-banner .carrusel .carrusel-output, .navlinks .carrusel-banner .carrusel .carrusel-output {
   position: absolute;
   z-index: 1;
   background-color: #404040;
@@ -156,6 +156,13 @@ nav .carrusel-e-imagenes .carrusel .carrusel-output, .navlinks .carrusel-e-image
   width: inherit;
   text-align: left;
   top: 300px;
+}
+nav .carrusel-banner .banner, .navlinks .carrusel-banner .banner {
+  position: absolute;
+  height: 360px;
+  left: 720px;
+  top: 20px;
+  box-sizing: content-box;
 }
 nav .links2, .navlinks .links2 {
   display: flex;
