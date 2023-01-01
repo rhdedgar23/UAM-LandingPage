@@ -1,0 +1,63 @@
+
+.avisos-Cultura{
+    position: relative;
+    display:grid;
+    height: 1000px;
+    //width: 980px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    //background-color: #c6dad8;
+    background-color: #ffffff;
+
+    .sidebar-title{
+        font-size: 0.85rem;
+        font-weight: bold;
+        color: #20ACB8;
+        //text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .sidebar-1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 500px;
+        padding-left: 30px;
+        padding-right: 10px;
+
+        .avisos-uam{
+            //border-style: solid;
+            //border-width: 2px;
+            //border-color: #000;
+            height:450px;
+            overflow-y: scroll;
+            
+            .aviso-contenedor{
+                //display: none;
+                height:120px;
+                border-style: none none solid none;
+                border-width: 1px;
+                border-color: #20ACB8;
+                
+                p{
+                    word-break: break-all;
+                }
+            }
+        }        
+    }
+
+    .sidebar-2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .sidebar-3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .sidebar-4{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+}

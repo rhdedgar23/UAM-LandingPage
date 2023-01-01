@@ -119,7 +119,7 @@ nav .carrusel-banner, .navlinks .carrusel-banner {
   grid-column-start: 1;
   grid-column-end: 5;
   background-color: #fff;
-  font-size: 70%;
+  font-size: 0.7rem;
 }
 nav .carrusel-banner .carrusel, .navlinks .carrusel-banner .carrusel {
   position: absolute;
@@ -216,4 +216,52 @@ nav .links2 a::before, .navlinks .links2 a::before {
 }
 nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
   opacity: 1;
+}
+
+.avisos-Cultura {
+  position: relative;
+  display: grid;
+  height: 1000px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: #ffffff;
+}
+.avisos-Cultura .sidebar-title {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #20ACB8;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.avisos-Cultura .sidebar-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 500px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.avisos-Cultura .sidebar-1 .avisos-uam {
+  height: 450px;
+  overflow-y: scroll;
+}
+.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor {
+  height: 120px;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #20ACB8;
+}
+.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p {
+  word-break: break-all;
+}
+.avisos-Cultura .sidebar-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.avisos-Cultura .sidebar-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.avisos-Cultura .sidebar-4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }/*# sourceMappingURL=style.css.map */
