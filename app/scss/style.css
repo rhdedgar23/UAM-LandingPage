@@ -221,6 +221,7 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
 .avisos-Cultura {
   position: relative;
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   height: 1000px;
   grid-column-start: 1;
   grid-column-end: 5;
@@ -249,9 +250,21 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
   border-style: none none solid none;
   border-width: 1px;
   border-color: #20ACB8;
+  font-size: 0.75rem;
 }
 .avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p {
-  word-break: break-all;
+  color: #838282;
+  font-weight: 700;
+}
+.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p.doc-link {
+  text-align: right;
+  color: #20ACB8;
+}
+.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p.doc-link a {
+  text-decoration: none;
+}
+.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p.doc-link a:hover {
+  color: #000;
 }
 .avisos-Cultura .sidebar-2 {
   grid-column-start: 2;
