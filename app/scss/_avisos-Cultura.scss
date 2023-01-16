@@ -2,7 +2,8 @@
 .avisos-Cultura{
     position: relative;
     display:grid;
-    grid-template-columns: repeat(4, 1fr);//if you dont add this to the display:grid, it'll treat the elements like inline-block elements
+    grid-template-columns: repeat(16, 1fr);//if you dont add this to the display:grid, it'll treat the elements like inline-block elements
+
     height: 1000px;
     //width: 980px;
     grid-column-start: 1;
@@ -20,13 +21,30 @@
         //max-width: 245px;
     }
 
+    a{
+        text-decoration: none;
+        font-size: 0.65rem;
+        font-style: italic;
+
+        &:visited{
+            color:#20ACB8;
+        } 
+        
+        &:hover{
+            color: #000;
+        }
+    }
+
     .sidebar-1{
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 6;
         height: 500px;
         padding-left: 30px;
         padding-right: 10px;
-        //max-width: 245px;
+        //max-width: 250px;
+        //border-style: none dotted none none;
+        
+        
 
         .avisos-uam{
             //border-style: solid;
@@ -38,7 +56,7 @@
             
             .aviso-contenedor{
                 //display: none;
-                height:120px;
+                //height:120px;
                 border-style: none none solid none;
                 border-width: 1px;
                 border-color: #20ACB8;
@@ -48,37 +66,78 @@
                     //font-style: italic;
                     color: #838282;
                     font-weight: 700;
-                    
                 }
 
                 p.doc-link{
                     text-align: right;
                     color:#20ACB8;
-
-                    a{
-                        text-decoration: none;
-
-                        &:hover{
-                            color: #000;
-                        }
-                    }
                 }
             }
         }        
     }
 
     .sidebar-2{
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 6;
+        grid-column-end: 10;
+
+        .avisos-convocatorias{
+
+            //padding-right: 10px;
+
+            .dropdown-convocatorias{
+                height: 200px;
+                margin-bottom: 15px;
+                overflow-y: scroll;
+                margin-right: 10px;
+                font-weight: 700;
+
+                details{
+                    font-size: 0.70rem;
+
+                    summary{
+                        background-color: #20ACB8;
+                        color:#ffffff;
+                        padding-left: 10px;
+                        padding-top: 5px;
+                        font-size: 0.80rem;
+                        height: 20px;
+                        border-radius: 5px 5px 0px 0px;
+                    }
+
+                    p{
+                        color: #838282;
+                        font-weight: 700;
+                    }
+
+                    p.det-p-title{
+                        color:#000;
+                    }
+                }
+
+            }
+
+            a{
+                img{
+                    display:block;
+                    padding-bottom: 35px;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        
+
     }
 
     .sidebar-3{
-        grid-column-start: 3;
-        grid-column-end: 4;
+        grid-column-start: 10;
+        grid-column-end: 14;
+
+
     }
 
     .sidebar-4{
-        grid-column-start: 4;
-        grid-column-end: 5;
+        grid-column-start: 14;
+        grid-column-end: 17;
     }
 }

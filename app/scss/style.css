@@ -221,7 +221,7 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
 .avisos-Cultura {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(16, 1fr);
   height: 1000px;
   grid-column-start: 1;
   grid-column-end: 5;
@@ -234,9 +234,20 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.avisos-Cultura a {
+  text-decoration: none;
+  font-size: 0.65rem;
+  font-style: italic;
+}
+.avisos-Cultura a:visited {
+  color: #20ACB8;
+}
+.avisos-Cultura a:hover {
+  color: #000;
+}
 .avisos-Cultura .sidebar-1 {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 6;
   height: 500px;
   padding-left: 30px;
   padding-right: 10px;
@@ -246,7 +257,6 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
   overflow-y: scroll;
 }
 .avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor {
-  height: 120px;
   border-style: none none solid none;
   border-width: 1px;
   border-color: #20ACB8;
@@ -260,21 +270,46 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
   text-align: right;
   color: #20ACB8;
 }
-.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p.doc-link a {
-  text-decoration: none;
+.avisos-Cultura .sidebar-2 {
+  grid-column-start: 6;
+  grid-column-end: 10;
 }
-.avisos-Cultura .sidebar-1 .avisos-uam .aviso-contenedor p.doc-link a:hover {
+.avisos-Cultura .sidebar-2 .avisos-convocatorias .dropdown-convocatorias {
+  height: 200px;
+  margin-bottom: 15px;
+  overflow-y: scroll;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.avisos-Cultura .sidebar-2 .avisos-convocatorias .dropdown-convocatorias details {
+  font-size: 0.7rem;
+}
+.avisos-Cultura .sidebar-2 .avisos-convocatorias .dropdown-convocatorias details summary {
+  background-color: #20ACB8;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 0.8rem;
+  height: 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+.avisos-Cultura .sidebar-2 .avisos-convocatorias .dropdown-convocatorias details p {
+  color: #838282;
+  font-weight: 700;
+}
+.avisos-Cultura .sidebar-2 .avisos-convocatorias .dropdown-convocatorias details p.det-p-title {
   color: #000;
 }
-.avisos-Cultura .sidebar-2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
+.avisos-Cultura .sidebar-2 .avisos-convocatorias a img {
+  display: block;
+  padding-bottom: 35px;
+  margin: 0 auto;
 }
 .avisos-Cultura .sidebar-3 {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 10;
+  grid-column-end: 14;
 }
 .avisos-Cultura .sidebar-4 {
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-column-start: 14;
+  grid-column-end: 17;
 }/*# sourceMappingURL=style.css.map */
