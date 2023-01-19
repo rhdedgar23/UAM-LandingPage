@@ -245,6 +245,27 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
 .avisos-Cultura a:hover {
   color: #000;
 }
+.avisos-Cultura .dotted-margin-sideb1 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  border-style: none dotted none none;
+  border-width: 4px;
+  border-color: #a9d8dd;
+}
+.avisos-Cultura .dotted-margin-sideb2 {
+  grid-column-start: 6;
+  grid-column-end: 10;
+  border-style: none dotted none none;
+  border-width: 4px;
+  border-color: #a9d8dd;
+}
+.avisos-Cultura .dotted-margin-sideb3 {
+  grid-column-start: 10;
+  grid-column-end: 14;
+  border-style: none dotted none none;
+  border-width: 4px;
+  border-color: #a9d8dd;
+}
 .avisos-Cultura .sidebar-1 {
   grid-column-start: 1;
   grid-column-end: 6;
@@ -273,6 +294,7 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
 .avisos-Cultura .sidebar-2 {
   grid-column-start: 6;
   grid-column-end: 10;
+  padding-left: 10px;
 }
 .avisos-Cultura .sidebar-2 .avisos-convocatorias .dropdown-convocatorias {
   height: 200px;
@@ -308,8 +330,10 @@ nav .links2 a:hover::before, .navlinks .links2 a:hover::before {
 .avisos-Cultura .sidebar-3 {
   grid-column-start: 10;
   grid-column-end: 14;
+  padding-left: 10px;
 }
 .avisos-Cultura .sidebar-4 {
   grid-column-start: 14;
   grid-column-end: 17;
+  padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */
