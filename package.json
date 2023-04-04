@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "chalk": "^5.2.0"
+  },
+  "name": "uami-landingpg",
+  "description": "Landing page de la pagina principal de la UAM (Universidad Autonoma Metropolitana)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdedgar23/UAM-LandingPage.git"
+  },
+  "keywords": [
+    "uam",
+    "uami"
+  ],
+  "author": "Edgar Rodriguez Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhdedgar23/UAM-LandingPage/issues"
+  },
+  "homepage": "https://github.com/rhdedgar23/UAM-LandingPage#readme"
+}
